@@ -1,0 +1,30 @@
+.Loader,
+.Loader:before,
+.Loader:after {
+  background: #ffa980;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.Loader {
+  color: #ffa980;
+  text-indent: -9999em;
+  margin: 88px auto;
+  position: relative;
+  font-size: 11px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.Loader:before,
+.Loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+.Loader:before {
+  left: -1.5em; 
+}
